@@ -1,0 +1,30 @@
+.mainpage {
+    border: 1px solid black;
+    width: 1000px;
+    background-color: rgb(247, 247, 247);
+}
+
+.mainpage-content {
+    margin: auto;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+    background-color: rgb(247, 247, 247);
+}
+
+.mainpage-create {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    z-index: 101;
+    width: 100px;
+    height: 50px;
+}
+
+.mainpage-create-btn {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}

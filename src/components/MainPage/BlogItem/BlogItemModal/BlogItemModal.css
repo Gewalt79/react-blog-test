@@ -1,0 +1,118 @@
+.blogitem-modal {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+  padding: 0;
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  z-index: 100;
+
+}
+
+.modal-content {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+  width: 800px;
+  height: 500px;
+  background-color: #fff;
+  padding-top: 10px;
+  border: 1px solid black;
+  z-index: 1;
+}
+
+.modal-input-content,
+.modal-input-title {
+  padding: 0;
+  margin: 0;
+  margin: auto;
+  font-size: 16px;
+}
+
+.modal-input-title {
+  width: 90%;
+  height: 5vh;
+}
+
+.modal-input-content {
+  width: 90%;
+  height: 35vh;
+}
+
+.modal-content-buttons {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+  height: 5vh;
+  margin: auto;
+}
+
+.modal-content-buttons-right {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.modal-content-buttons button {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.blogitem-modal-bg {
+  position: absolute;
+  background-color: black;
+  opacity: 0.2;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  cursor: pointer;
+}
+
+.accept-delete {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  color: black;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  padding: 30px;
+  z-index: 2;
+}
+
+.accept-delete-bg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.08;
+  z-index: -1;
+}
+
+.accept-delete-buttons {
+  display: flex;
+  flex-flow: row;
+  z-index: 2;
+}
+
+.accept-delete-buttons button {
+  cursor: pointer;
+  margin: 3px;
+}
